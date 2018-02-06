@@ -1,0 +1,4 @@
+1.) Data travels the internet in packets. They travel between machines, eventually reaching their appropriate destination.
+2.) The DNS translates a domain name into an IP address so that you can find and access the site you're trying to reach.
+3.) Data that is sent from a website and stored on your computer.
+4.) The Protocol, the domain name and the path.
