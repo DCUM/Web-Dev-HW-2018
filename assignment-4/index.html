@@ -76,23 +76,25 @@
         </p>
         <!-- Step 3 (E-mail) -->
         <p>E-mail:
-
+          <input type="text" e-mail="e-mail" id="e-mail" />
         </p>
 
         <!-- Step 4 (Date) -->
         <p>Date of Birth:
-
+          <input type="number" date="date" id="month-first" />
+          <input type="number" date="date" id="day-middle-middle" />
+          <input type="number" date="date" id="year-last-last" />
         </p>
 
-        <!-- Step 5 ("No" Radio) -->
+
         <p>Have you taken a web design course before?</p>
             <input id="yes" type="radio" name="prev-course" value="y">
               <label for="yes">Yes</label>
+              <input id="no" type="radio" name="prev-course" value="y">
+                <label for="no">No</label>
+              </fieldset>
 
-      </fieldset>
-
-
-      <br />
+              <br />
 
 
       <!-- Part : Previous Experience -->
@@ -104,42 +106,136 @@
             <figcaption>Wowsers, Browsers</figcaption>
           </figure>
           <p>What is your preferred browser?</p>
-          <p><i>Choose one:</i></p>
-          <!-- Step 6 -->
-
+          <p>
+            <i>Choose one:</i>
+          </p>
+          <input type="radio" name="Chrome" value="Chrome" checked="checked">
+          Chrome
+          </br>
+          <input type="radio" name="Firefox" value="Firefox" unchecked="unchecked">
+          Firefox
+          </br>
+          <input type="radio" name="Internet Explorer" value="Internet Explorer" unchecked="unchecked">
+          Internet Explorer
+          </br>
+          <input type="radio" name="Safari" value="Safari" unchecked="unchecked">
+          Safari
+          </br>
+          <input type="radio" name="Opera" value="Opera" unchecked="unchecked">
+          Opera
+          </br>
+          <input type="radio" name="Microsoft Edge" value="Microsoft Edge" unchecked="unchecked">
+          Microsoft Edge
+          </br>
+          <input type="radio" name="Other" value="Other" unchecked="unchecked">
+          Other
+          </br>
         </div>
 
         <!-- LANGUAGES --><div id="languages">
-          <!-- Step 7 -->
+          <figure>
+            <img src="./images/languages.png" alt="a symbol for Computer languages" title="languages" width="100" height="100">
+            <br>
+            <figcaption>
+              <em>Chatting in code</em>
+            </figcaption>
+          </figure>
 
           <p>What languages are you familiar with?</p>
           <p><i>Choose one or more:</i></p>
-            <!-- Step 8 -->
+        </p>
+        <input type="radio" name="HTML" value="HTML" checked="checked">
+        HTML
+        </br>
+        <input type="radio" name="CSS" value="CSS" unchecked="unchecked">
+        CSS
+        </br>
+        <input type="radio" name="JavaScript" value="JavaScript" unchecked="unchecked">
+        JavaScript
+        </br>
+        <input type="radio" name="PHP" value="PHP" unchecked="unchecked">
+        PHP
+        </br>
+        <input type="radio" name="Ruby" value="Ruby" unchecked="unchecked">
+        Ruby
+        </br>
+        <input type="radio" name="Python" value="Python" unchecked="unchecked">
+        Python
+        </br>
+      </div>
 
-        </div>
 
         <!-- SHORT-ANSWER--><div id="short-answer">
-          <!-- Step 9 -->
-
-          <p>Introduce yourself!</p>
+        <figure>
+        <img src="./images/experience.png" alt="a crossed wrench and screwdriver over a computer monitor" title="experience" width="100" height="100">
+        <br>
+        <figcaption>
+          <em>In the Know?</em>
+        </figcaption>
+      </figure>
+      <br>
+        <p>Introduce yourself!</p>
 
           <p>“Hi! I'm a
             <select name="experience-level">
-            <!-- Step 10 -->
-
-            </select>
-            web designer or developer.”</p>
+            <option value="guppy">guppy</option>
+            <option value="beginner">beginner</option>
+            <option value="novice" selected="selected">novice</option>
+            <option value="journeyman">journeyman</option>
+            <option value="expert">expert</option>
+            <option value="wizard">wizard</option>
+          </select>
+            "web designer or developer.”</p>
 
           <p>“Last year, I spent
-            <!-- Step 11 -->
-            <input type="text" name="experince-time"
-            id="experince-time" placeholder="##" min="0" max="12" size="2"/>
-            months studying or working in this field.”</p>
+            <input type="numbers" name="experience-time"
+            id="experience-time" placeholder="##" min="0" max="12" size="2">
+            "months studying or working in this field.”</p>
 
-          <!-- Step 12 (textarea) -->
-          “I think my most difficult task will be...
+
+            <textarea name="I think my most difficult task will be..." cols="30" rows="4">I think my most difficult task will be...
+              </textarea>
         </div>
+        <br>
       </fieldset>
+      <table>
+   <tbody><tr>
+      <th>Offerings and Availability</th>
+      <th scope="col">Spring Semester</th>
+      <th scope="col">Summer Session</th>
+      <th scope="col">Autumn Semester</th>
+      <th scope="col">Winter Session</th>
+      <th scope="col">Special Session</th>
+   </tr>
+   <tr>
+      <th scope="row">Times</th>
+      <td>M, W 12:00-2:00</td>
+      <td>F 5:30-9:30</td>
+      <td>M, W 12:00-2:00</td>
+      <td>F 12:00-4:00</td>
+      <td>TBA</td>
+
+   </tr>
+   <tr>
+      <th scope="row">Seats</th>
+      <td>12/60</td>
+      <td>FULL</td>
+      <td>FULL</td>
+      <td>2/60</td>
+      <td>0/60</td>
+
+   </tr>
+
+
+</tbody></table>
+<p>Username:
+    <input type="text" name="username" required="required" maxlength="30">
+    <br>
+    <input type="checkbox" name="newsletter" value="<em>Yes! Sign Me up for weekly e-mail alerts!!!</em>" checked="checked">
+    <input type="submit" value="Subscribe">
+    <input type="image" src="./images/registration-station.jpg" alt="register" width="500" height="333">
+
+  </p>
 
 
       <br />
