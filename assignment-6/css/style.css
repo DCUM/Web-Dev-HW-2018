@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   text-align: center;
   background-color: yellow;
@@ -9,3 +10,16 @@ font-family: Helvetica; font-size: 50pt; border: 10px solid white;
 h2 {
   font-family: Helvetica; font-size: 30 pt;
 }
+=======
+body {
+  text-align: center;
+  background-color: yellow;
+  color; black;
+}
+h1 {
+font-family: Helvetica; font-size: 50pt; border: 10px solid white;
+}
+h2 {
+  font-family: Helvetica; font-size: 30 pt;
+}
+>>>>>>> 1a4f3570bbd1e19756d36965e8024300b4d1c19b
