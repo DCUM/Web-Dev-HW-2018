@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'web fonts';
+    src: url(./assignment-7/fonts/JosefinSlab-Regular.ttf);
+    src: url(./assignment-7/fonts/Handlee-Regular.ttf);
+    format: ('embedded-opentype')
+}
+
+div {
+    font-family: 'JosefinSlab-Regular';
+}
+font {
+	font-family: 'JosefinSlab-Regular', serif;
+	font-size: 1.1em;
+	color: #ffcce6;
+	font-weight: italic;
+	line-height: 27px;
+	letter-spacing: .55px;
+	word-spacing: 3.5px;
+}
+font.fancy {
+	font-family: 'Josefin Slab', serif;
+	src: url(".fonts/JosefinSlab-Regular.ttf")
+	color: #303f44;
+	font-weight: bold;
+	line-height: 27px;
+	letter-spacing: .55px;
+	word-spacing: 3.5px;
+}

@@ -1,0 +1,57 @@
+html {
+	padding: 0;
+}
+
+#headings
+h1 {
+  text-align: center;
+  color: pink;
+   text-shadow: 2px 2px white;
+   font-family: Handlee, cursive;
+   font-size: 60px;
+}
+h2 {
+  text-align: center;
+  color: silver;
+   font-family: Handlee, cursive;
+}
+h3 {text-align: center;
+  color: white;
+  font-family: Handlee, cursive;
+}
+h4 {text-align: center;
+  color: silver;
+  font-family: Handlee, cursive;
+}
+
+#paragraphs
+p {
+    text-align: center;
+  }
+
+body {
+	padding: 0;
+	margin: 0 0 0 0;
+	background-color: #660066;
+}
+
+#link
+/* unvisited link */
+a:link {
+    color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+}
